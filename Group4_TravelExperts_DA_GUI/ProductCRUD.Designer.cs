@@ -47,9 +47,9 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             this.lblAllSuppliers.AutoSize = true;
             this.lblAllSuppliers.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblAllSuppliers.Location = new System.Drawing.Point(520, 98);
+            this.lblAllSuppliers.Location = new System.Drawing.Point(455, 74);
             this.lblAllSuppliers.Name = "lblAllSuppliers";
-            this.lblAllSuppliers.Size = new System.Drawing.Size(112, 23);
+            this.lblAllSuppliers.Size = new System.Drawing.Size(93, 19);
             this.lblAllSuppliers.TabIndex = 23;
             this.lblAllSuppliers.Text = "All Suppliers";
             // 
@@ -57,18 +57,19 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             this.lblProdSuppliers.AutoSize = true;
             this.lblProdSuppliers.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblProdSuppliers.Location = new System.Drawing.Point(12, 101);
+            this.lblProdSuppliers.Location = new System.Drawing.Point(10, 76);
             this.lblProdSuppliers.Name = "lblProdSuppliers";
-            this.lblProdSuppliers.Size = new System.Drawing.Size(210, 23);
+            this.lblProdSuppliers.Size = new System.Drawing.Size(173, 19);
             this.lblProdSuppliers.TabIndex = 22;
             this.lblProdSuppliers.Text = "Suppliers of this product";
             // 
             // btnExit
             // 
-            this.btnExit.BackColor = System.Drawing.Color.YellowGreen;
-            this.btnExit.Location = new System.Drawing.Point(912, 40);
+            this.btnExit.BackColor = System.Drawing.Color.LightCoral;
+            this.btnExit.Location = new System.Drawing.Point(798, 30);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(57, 29);
+            this.btnExit.Size = new System.Drawing.Size(50, 22);
             this.btnExit.TabIndex = 20;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -76,27 +77,29 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             // txtProdName
             // 
-            this.txtProdName.Location = new System.Drawing.Point(12, 40);
+            this.txtProdName.Location = new System.Drawing.Point(10, 30);
+            this.txtProdName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtProdName.Name = "txtProdName";
-            this.txtProdName.Size = new System.Drawing.Size(510, 27);
+            this.txtProdName.Size = new System.Drawing.Size(447, 23);
             this.txtProdName.TabIndex = 15;
             // 
             // lblProdName
             // 
             this.lblProdName.AutoSize = true;
             this.lblProdName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblProdName.Location = new System.Drawing.Point(12, 17);
+            this.lblProdName.Location = new System.Drawing.Point(10, 13);
             this.lblProdName.Name = "lblProdName";
-            this.lblProdName.Size = new System.Drawing.Size(73, 23);
+            this.lblProdName.Size = new System.Drawing.Size(62, 19);
             this.lblProdName.TabIndex = 14;
             this.lblProdName.Text = "Product";
             // 
             // btnAccept
             // 
-            this.btnAccept.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAccept.Location = new System.Drawing.Point(832, 40);
+            this.btnAccept.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
+            this.btnAccept.Location = new System.Drawing.Point(728, 30);
+            this.btnAccept.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAccept.Name = "btnAccept";
-            this.btnAccept.Size = new System.Drawing.Size(74, 29);
+            this.btnAccept.Size = new System.Drawing.Size(65, 22);
             this.btnAccept.TabIndex = 24;
             this.btnAccept.Text = "Accept";
             this.btnAccept.UseVisualStyleBackColor = false;
@@ -106,9 +109,9 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             this.lblAllSuppliersCount.AutoSize = true;
             this.lblAllSuppliersCount.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAllSuppliersCount.Location = new System.Drawing.Point(943, 104);
+            this.lblAllSuppliersCount.Location = new System.Drawing.Point(825, 78);
             this.lblAllSuppliersCount.Name = "lblAllSuppliersCount";
-            this.lblAllSuppliersCount.Size = new System.Drawing.Size(11, 17);
+            this.lblAllSuppliersCount.Size = new System.Drawing.Size(10, 13);
             this.lblAllSuppliersCount.TabIndex = 25;
             this.lblAllSuppliersCount.Text = ".";
             // 
@@ -116,41 +119,43 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             this.lblProdSuppliersCount.AutoSize = true;
             this.lblProdSuppliersCount.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblProdSuppliersCount.Location = new System.Drawing.Point(470, 105);
+            this.lblProdSuppliersCount.Location = new System.Drawing.Point(411, 79);
             this.lblProdSuppliersCount.Name = "lblProdSuppliersCount";
-            this.lblProdSuppliersCount.Size = new System.Drawing.Size(11, 17);
+            this.lblProdSuppliersCount.Size = new System.Drawing.Size(10, 13);
             this.lblProdSuppliersCount.TabIndex = 26;
             this.lblProdSuppliersCount.Text = ".";
             // 
             // dgvProdSuppliers
             // 
             this.dgvProdSuppliers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProdSuppliers.Location = new System.Drawing.Point(12, 127);
+            this.dgvProdSuppliers.Location = new System.Drawing.Point(10, 95);
+            this.dgvProdSuppliers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvProdSuppliers.Name = "dgvProdSuppliers";
             this.dgvProdSuppliers.RowHeadersWidth = 51;
             this.dgvProdSuppliers.RowTemplate.Height = 29;
             this.dgvProdSuppliers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProdSuppliers.Size = new System.Drawing.Size(484, 433);
+            this.dgvProdSuppliers.Size = new System.Drawing.Size(424, 325);
             this.dgvProdSuppliers.TabIndex = 27;
             this.dgvProdSuppliers.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProdSuppliers_CellDoubleClick);
             // 
             // dgvAllSuppliers
             // 
             this.dgvAllSuppliers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAllSuppliers.Location = new System.Drawing.Point(520, 124);
+            this.dgvAllSuppliers.Location = new System.Drawing.Point(455, 93);
+            this.dgvAllSuppliers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvAllSuppliers.Name = "dgvAllSuppliers";
             this.dgvAllSuppliers.RowHeadersWidth = 51;
             this.dgvAllSuppliers.RowTemplate.Height = 29;
             this.dgvAllSuppliers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAllSuppliers.Size = new System.Drawing.Size(447, 436);
+            this.dgvAllSuppliers.Size = new System.Drawing.Size(391, 327);
             this.dgvAllSuppliers.TabIndex = 28;
             this.dgvAllSuppliers.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAllSuppliers_CellDoubleClick);
             // 
             // frmProductCRUD
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1040, 589);
+            this.ClientSize = new System.Drawing.Size(910, 442);
             this.Controls.Add(this.dgvAllSuppliers);
             this.Controls.Add(this.dgvProdSuppliers);
             this.Controls.Add(this.lblProdSuppliersCount);
@@ -161,6 +166,7 @@ namespace Group4_TravelExperts_DA_GUI
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.txtProdName);
             this.Controls.Add(this.lblProdName);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmProductCRUD";
             this.Text = "Product CRUD";
             this.Load += new System.EventHandler(this.frmProductCRUD_Load);

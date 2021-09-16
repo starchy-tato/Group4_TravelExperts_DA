@@ -40,20 +40,21 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             this.lblSB.AutoSize = true;
             this.lblSB.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblSB.ForeColor = System.Drawing.Color.Salmon;
-            this.lblSB.Location = new System.Drawing.Point(178, 126);
+            this.lblSB.ForeColor = System.Drawing.Color.DarkSlateBlue;
+            this.lblSB.Location = new System.Drawing.Point(94, 51);
             this.lblSB.Name = "lblSB";
-            this.lblSB.Size = new System.Drawing.Size(442, 81);
+            this.lblSB.Size = new System.Drawing.Size(356, 65);
             this.lblSB.TabIndex = 0;
             this.lblSB.Text = "SWITCHBOARD";
             // 
             // btnPackages
             // 
-            this.btnPackages.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnPackages.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.btnPackages.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPackages.Location = new System.Drawing.Point(114, 268);
+            this.btnPackages.Location = new System.Drawing.Point(28, 159);
+            this.btnPackages.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPackages.Name = "btnPackages";
-            this.btnPackages.Size = new System.Drawing.Size(104, 45);
+            this.btnPackages.Size = new System.Drawing.Size(91, 34);
             this.btnPackages.TabIndex = 1;
             this.btnPackages.Text = "Packages";
             this.btnPackages.UseVisualStyleBackColor = false;
@@ -61,11 +62,12 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             // btnProducts
             // 
-            this.btnProducts.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(179)))), ((int)(((byte)(179)))));
             this.btnProducts.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnProducts.Location = new System.Drawing.Point(253, 268);
+            this.btnProducts.Location = new System.Drawing.Point(149, 159);
+            this.btnProducts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProducts.Name = "btnProducts";
-            this.btnProducts.Size = new System.Drawing.Size(104, 45);
+            this.btnProducts.Size = new System.Drawing.Size(91, 34);
             this.btnProducts.TabIndex = 2;
             this.btnProducts.Text = "Products";
             this.btnProducts.UseVisualStyleBackColor = false;
@@ -73,11 +75,12 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             // btnSuppliers
             // 
-            this.btnSuppliers.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnSuppliers.BackColor = System.Drawing.Color.SkyBlue;
             this.btnSuppliers.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSuppliers.Location = new System.Drawing.Point(389, 268);
+            this.btnSuppliers.Location = new System.Drawing.Point(268, 159);
+            this.btnSuppliers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSuppliers.Name = "btnSuppliers";
-            this.btnSuppliers.Size = new System.Drawing.Size(104, 45);
+            this.btnSuppliers.Size = new System.Drawing.Size(91, 34);
             this.btnSuppliers.TabIndex = 3;
             this.btnSuppliers.Text = "Suppliers";
             this.btnSuppliers.UseVisualStyleBackColor = false;
@@ -85,11 +88,12 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             // btnExit
             // 
-            this.btnExit.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnExit.BackColor = System.Drawing.Color.LightCoral;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnExit.Location = new System.Drawing.Point(587, 268);
+            this.btnExit.Location = new System.Drawing.Point(442, 159);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(94, 44);
+            this.btnExit.Size = new System.Drawing.Size(82, 33);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -97,14 +101,15 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             // frmSwitchBoard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(553, 226);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSuppliers);
             this.Controls.Add(this.btnProducts);
             this.Controls.Add(this.btnPackages);
             this.Controls.Add(this.lblSB);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmSwitchBoard";
             this.Text = "Travel Experts Main";
             this.Load += new System.EventHandler(this.frmSwitchBoard_Load);

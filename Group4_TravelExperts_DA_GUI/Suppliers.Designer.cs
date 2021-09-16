@@ -39,11 +39,12 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             // btnExit
             // 
-            this.btnExit.BackColor = System.Drawing.Color.YellowGreen;
+            this.btnExit.BackColor = System.Drawing.Color.LightCoral;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnExit.Location = new System.Drawing.Point(675, 378);
+            this.btnExit.Location = new System.Drawing.Point(493, 321);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(94, 38);
+            this.btnExit.Size = new System.Drawing.Size(82, 28);
             this.btnExit.TabIndex = 11;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -51,22 +52,24 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnUpdate.BackColor = System.Drawing.Color.SkyBlue;
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdate.Location = new System.Drawing.Point(188, 379);
+            this.btnUpdate.Location = new System.Drawing.Point(164, 321);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(94, 38);
+            this.btnUpdate.Size = new System.Drawing.Size(82, 28);
             this.btnUpdate.TabIndex = 9;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
             // 
             // btnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnAdd.BackColor = System.Drawing.Color.SkyBlue;
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnAdd.Location = new System.Drawing.Point(32, 380);
+            this.btnAdd.Location = new System.Drawing.Point(28, 322);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(94, 38);
+            this.btnAdd.Size = new System.Drawing.Size(82, 28);
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "&Add";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -75,33 +78,35 @@ namespace Group4_TravelExperts_DA_GUI
             // 
             this.dgvSuppliers.AllowUserToOrderColumns = true;
             this.dgvSuppliers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSuppliers.Location = new System.Drawing.Point(32, 76);
+            this.dgvSuppliers.Location = new System.Drawing.Point(28, 57);
+            this.dgvSuppliers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvSuppliers.Name = "dgvSuppliers";
             this.dgvSuppliers.RowHeadersWidth = 51;
             this.dgvSuppliers.RowTemplate.Height = 29;
-            this.dgvSuppliers.Size = new System.Drawing.Size(737, 265);
+            this.dgvSuppliers.Size = new System.Drawing.Size(547, 238);
             this.dgvSuppliers.TabIndex = 7;
             // 
             // lblSuppliers
             // 
             this.lblSuppliers.AutoSize = true;
             this.lblSuppliers.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSuppliers.Location = new System.Drawing.Point(32, 33);
+            this.lblSuppliers.Location = new System.Drawing.Point(28, 25);
             this.lblSuppliers.Name = "lblSuppliers";
-            this.lblSuppliers.Size = new System.Drawing.Size(114, 31);
+            this.lblSuppliers.Size = new System.Drawing.Size(95, 25);
             this.lblSuppliers.TabIndex = 6;
             this.lblSuppliers.Text = "Suppliers";
             // 
             // frmSuppliers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(605, 371);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.dgvSuppliers);
             this.Controls.Add(this.lblSuppliers);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmSuppliers";
             this.Text = "Suppliers";
             this.Load += new System.EventHandler(this.frmSuppliers_Load);
