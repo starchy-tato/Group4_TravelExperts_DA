@@ -199,5 +199,34 @@ namespace Group4_TravelExperts_DA_GUI
             return isValid;
         }
 
+        public static bool IsValidPackageDates(DateTimePicker startDate, DateTimePicker endDate)
+        {
+            bool isValid = true;
+            if (startDate.Value > endDate.Value)
+            {
+                MessageBox.Show(endDate.Tag + " should be after than the start date.");
+                endDate.Focus();
+                isValid = false;
+            }
+            return isValid;
+        }
+
+        public static bool IsValidCommissionAmount(TextBox BPTb, TextBox commTb)
+        {
+            bool isValid = true;
+            string basePriceString = BPTb.Text.Replace("$", "");
+            string agencyCommisionString = commTb.Text.Replace("$", "");
+            decimal basePrice = Convert.ToDecimal(basePriceString);
+            decimal aComm = Convert.ToDecimal(agencyCommisionString);
+            if(basePrice < aComm)
+            {
+                MessageBox.Show(commTb.Tag + " should be less than Base Price.");
+                commTb.Focus();
+                isValid = false;
+            }
+
+            return isValid;
+        }
+
     }
 }

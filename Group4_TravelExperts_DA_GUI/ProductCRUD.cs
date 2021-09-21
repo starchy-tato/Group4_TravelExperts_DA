@@ -174,8 +174,6 @@ namespace Group4_TravelExperts_DA_GUI
                 lblAllSuppliersCount.Text = dgvAllSuppliers.Rows.Count.ToString();
                 lblProdSuppliersCount.Text = dgvProdSuppliers.Rows.Count.ToString();
             }
-            
-
         }
 
         private void dgvAllSuppliers_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -224,5 +222,5 @@ namespace Group4_TravelExperts_DA_GUI
             
             RefreshGrids();
         }
-    }
-}
+    }// class
+}// namespace

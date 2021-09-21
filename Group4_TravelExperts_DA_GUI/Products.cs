@@ -42,7 +42,10 @@ namespace Group4_TravelExperts_DA_GUI
 
                 dgvProducts.Columns[0].DefaultCellStyle.Font = new Font("Segoe UI", 12);
                 dgvProducts.Columns[1].DefaultCellStyle.Font = new Font("Segoe UI", 12);
-                dgvProducts.Columns[1].Width = 350; // Description - with in pixels
+                dgvProducts.Columns[1].Width = 350;
+
+                dgvProducts.Columns[0].HeaderText = "Id";
+                dgvProducts.Columns[1].HeaderText = "Name";
 
                 dgvProducts.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 12, FontStyle.Bold);
                 //dgvProducts.EnableHeadersVisualStyles = false;

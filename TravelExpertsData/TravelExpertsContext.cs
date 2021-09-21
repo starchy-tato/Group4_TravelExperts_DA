@@ -270,7 +270,7 @@ namespace TravelExpertsData
                     .HasName("aaaaaSuppliers_PK")
                     .IsClustered(false);
 
-                entity.Property(e => e.SupplierId).ValueGeneratedNever();
+                //entity.Property(e => e.SupplierId).ValueGeneratedNever();
             });
 
             modelBuilder.Entity<SupplierContact>(entity =>

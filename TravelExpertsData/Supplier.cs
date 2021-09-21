@@ -17,7 +17,9 @@ namespace TravelExpertsData
             SupplierContacts = new HashSet<SupplierContact>();
         }
 
+
         [Key]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int SupplierId { get; set; }
         [StringLength(255)]
         public string SupName { get; set; }
