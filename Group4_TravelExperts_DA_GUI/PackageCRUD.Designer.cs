@@ -170,6 +170,7 @@ namespace Group4_TravelExperts_DA_GUI
             this.dtpPkgStartDate.Name = "dtpPkgStartDate";
             this.dtpPkgStartDate.Size = new System.Drawing.Size(250, 27);
             this.dtpPkgStartDate.TabIndex = 12;
+            this.dtpPkgStartDate.Tag = "Start Date";
             // 
             // dtpPkgEndDate
             // 
@@ -177,6 +178,7 @@ namespace Group4_TravelExperts_DA_GUI
             this.dtpPkgEndDate.Name = "dtpPkgEndDate";
             this.dtpPkgEndDate.Size = new System.Drawing.Size(250, 27);
             this.dtpPkgEndDate.TabIndex = 13;
+            this.dtpPkgEndDate.Tag = "End Date";
             // 
             // dgvPkgeProducts
             // 
